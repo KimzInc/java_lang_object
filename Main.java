@@ -30,11 +30,7 @@ class PrimarySchoolStudent extends Student{
     }
 }
 public class Main {
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
-
+    
     public static void main(String[] args) {
         Student student1 = new Student("Mark", 21);
         Student student2 = new Student("Jane", 29);
